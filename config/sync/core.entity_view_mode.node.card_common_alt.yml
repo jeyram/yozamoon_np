@@ -1,0 +1,12 @@
+uuid: 8b919453-dc99-4a35-93ef-ee05585495f1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ywtGZ6aQN-1g5CwgTXKtu7ds_1d7wJZCwu0a2FyIl78
+id: node.card_common_alt
+label: 'Alternativa común de la tarjeta'
+targetEntityType: node
+cache: true

@@ -1,0 +1,12 @@
+uuid: 2b0992f0-86e7-4b79-9caa-5eaf811774da
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: nmGf3ZkxTWp1HmkQ7iq2M6uv-NUOu0hjXE4UNMY0MKk
+id: node.card_common
+label: 'Carta común'
+targetEntityType: node
+cache: true
