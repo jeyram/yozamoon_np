@@ -1,0 +1,8 @@
+uuid: 35fc3549-f3f2-461d-9da4-440b3a2c0ec4
+langcode: es
+status: true
+dependencies: {  }
+id: bloque_promocional
+label: 'Bloque promocional'
+revision: 0
+description: 'Un bloque de banner contiene un título, resumen, enlace al contenido y una imagen de fondo. La imagen de fondo se escala para llenar el ancho del navegador.'

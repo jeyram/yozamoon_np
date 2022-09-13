@@ -1,0 +1,19 @@
+uuid: c63d8ff7-b2d8-4190-9de4-d5217963b1b5
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_promocional
+    - field.storage.block_content.field_title
+id: block_content.bloque_promocional.field_title
+field_name: field_title
+entity_type: block_content
+bundle: bloque_promocional
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

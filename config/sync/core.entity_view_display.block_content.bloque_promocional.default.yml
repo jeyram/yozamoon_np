@@ -1,0 +1,55 @@
+uuid: a230055b-e8e7-4c81-b8d9-5df0031baafb
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_promocional
+    - field.field.block_content.bloque_promocional.field_content_link
+    - field.field.block_content.bloque_promocional.field_media_image
+    - field.field.block_content.bloque_promocional.field_summary
+    - field.field.block_content.bloque_promocional.field_title
+  module:
+    - link
+id: block_content.bloque_promocional.default
+targetEntityType: block_content
+bundle: bloque_promocional
+mode: default
+content:
+  field_content_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_media_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

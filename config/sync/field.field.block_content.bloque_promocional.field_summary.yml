@@ -1,0 +1,19 @@
+uuid: adb9fe77-e7a1-4847-a917-00293fc000fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_promocional
+    - field.storage.block_content.field_summary
+id: block_content.bloque_promocional.field_summary
+field_name: field_summary
+entity_type: block_content
+bundle: bloque_promocional
+label: Resumen
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

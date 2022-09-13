@@ -1,0 +1,19 @@
+uuid: 58513ecc-687a-4170-8d27-dca31f1a229d
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_summary
+field_name: field_summary
+entity_type: block_content
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 32e41679-bd74-4e99-9900-bcf360449256
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - yza
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: yza_help
+theme: yza
+region: highlighted
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

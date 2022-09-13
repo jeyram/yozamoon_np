@@ -1,0 +1,23 @@
+uuid: 236234b9-4a81-487e-81c8-d110fbef1579
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - yza
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: yza_search_form_narrow
+theme: yza
+region: pre_header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 23fb652d-4abb-4d72-836d-cca878906e80
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yza
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: yza_powered
+theme: yza
+region: bottom
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
