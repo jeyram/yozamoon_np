@@ -12,7 +12,7 @@ dependencies:
 id: yzahomebanner
 theme: yza
 region: banner_top
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:43ecab94-c76c-4b40-9cc6-8dfecf94f16e'
 settings:

@@ -1,0 +1,29 @@
+uuid: eb768dad-0a79-4f84-87a1-65569118249c
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.promoted_items
+  module:
+    - system
+    - views
+  theme:
+    - yza
+id: views_block__promoted_items_block_1
+theme: yza
+region: banner_top
+weight: -6
+provider: null
+plugin: 'views_block:promoted_items-block_1'
+settings:
+  id: 'views_block:promoted_items-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
