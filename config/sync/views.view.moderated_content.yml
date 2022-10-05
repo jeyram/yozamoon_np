@@ -1,4 +1,4 @@
-uuid: 22db522b-182e-4ba4-a52d-eafc417d3252
+uuid: 451cbd63-84c7-4170-a561-7a0acf3e56c6
 langcode: es
 status: true
 dependencies:
@@ -11,20 +11,20 @@ dependencies:
 _core:
   default_config_hash: upi3_YaKY1MjDALjDauLNPXfHakisQNehC9Dj6icMPQ
 id: moderated_content
-label: 'Contenido moderado'
+label: 'Moderated content'
 module: views
-description: 'Encuentra y modera contenido.'
+description: 'Find and moderate content.'
 tag: ''
 base_table: node_field_revision
 base_field: vid
 display:
   default:
     id: default
-    display_title: 'Por defecto'
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
-      title: 'Contenido moderado'
+      title: 'Moderated content'
       fields:
         title:
           id: title
@@ -36,7 +36,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Título
+          label: Title
           exclude: false
           alter:
             alter_text: false
@@ -101,7 +101,7 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: field
-          label: 'Tipo de contenido'
+          label: 'Content type'
           exclude: false
           alter:
             alter_text: false
@@ -166,7 +166,7 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-          label: Autor
+          label: Author
           exclude: false
           alter:
             alter_text: false
@@ -230,7 +230,7 @@ display:
           admin_label: ''
           entity_type: node
           plugin_id: field
-          label: 'Estado de moderación'
+          label: 'Moderation state'
           exclude: false
           alter:
             alter_text: false
@@ -294,7 +294,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: field
-          label: Actualizado
+          label: Updated
           exclude: false
           alter:
             alter_text: false
@@ -360,7 +360,7 @@ display:
           admin_label: ''
           entity_type: node
           plugin_id: entity_operations
-          label: Operaciones
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -410,26 +410,26 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'Siguiente >'
-            previous: '‹ Anterior'
-            first: '« Primero'
-            last: 'Último »'
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Elementos por página'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Todo -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Desplazamiento
+            offset_label: Offset
           quantity: 9
       exposed_form:
         type: basic
         options:
-          submit_button: Filtro
+          submit_button: Filter
           reset_button: true
-          reset_button_label: Restablecer
-          exposed_sorts_label: 'Ordenar por'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -450,7 +450,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'No hay contenido moderado disponible. Solo las versiones pendientes de contenido, como los borradores, se enumeran aquí.'
+          content: 'No moderated content available. Only pending versions of content, such as drafts, are listed here.'
           tokenize: false
       sorts: {  }
       arguments: {  }
@@ -510,7 +510,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Título
+            label: Title
             description: ''
             use_operator: false
             operator: title_op
@@ -552,7 +552,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Tipo de contenido'
+            label: 'Content type'
             description: ''
             use_operator: false
             operator: type_op
@@ -596,7 +596,7 @@ display:
           exposed: true
           expose:
             operator_id: moderation_state_op
-            label: 'Estado de moderación'
+            label: 'Moderation state'
             description: ''
             use_operator: false
             operator: moderation_state_op
@@ -639,7 +639,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Idioma
+            label: Language
             description: ''
             use_operator: false
             operator: langcode_op
@@ -814,7 +814,7 @@ display:
       tags: {  }
   moderated_content:
     id: moderated_content
-    display_title: 'Contenido moderado'
+    display_title: 'Moderated content'
     display_plugin: page
     position: 1
     display_options:

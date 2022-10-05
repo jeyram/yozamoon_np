@@ -4,7 +4,17 @@ display:
   default:
     display_title: Default
     display_options:
-      title: Home
+      pager:
+        options:
+          tags:
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
       exposed_form:
         options:
           submit_button: Apply
@@ -14,19 +24,10 @@ display:
           sort_desc_label: Desc
       empty:
         area_text_custom:
-          content: 'No front page content has been created yet.'
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
         title:
-          title: 'Welcome to [site:name]'
-      header:
-        area:
-          content:
-            value: '<p class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level.</p>'
+          title: Welcome!
   feed_1:
     display_title: Feed
   page_1:
     display_title: Page
-    display_options:
-      header:
-        area:
-          content:
-            value: '<p class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level</p>'
