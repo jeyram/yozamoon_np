@@ -1,4 +1,4 @@
-uuid: f6bb3bdd-af9e-474c-88e7-7cbfa1ee684c
+uuid: 24a5c06d-d764-4ac8-8ab0-5102535b5122
 langcode: es
 status: true
 dependencies:
@@ -7,8 +7,8 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
-id: yza_site_branding
+  default_config_hash: KpzA0z4GVAQdiudD8S4qJXkxUCkTDFtsMkS9ZAG9-Xo
+id: yza_branding
 theme: yza
 region: header
 weight: -7
@@ -21,5 +21,5 @@ settings:
   provider: system
   use_site_logo: true
   use_site_name: false
-  use_site_slogan: false
+  use_site_slogan: true
 visibility: {  }

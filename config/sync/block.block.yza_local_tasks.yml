@@ -1,13 +1,15 @@
-uuid: 117528a1-3eb7-4630-88ca-08cf3d31680f
+uuid: c500e8a0-65ff-4764-bb2d-738364f2f21c
 langcode: es
 status: true
 dependencies:
   theme:
     - yza
-id: pestanas
+_core:
+  default_config_hash: IxC1zV9L6MyT897p-qPdP5PQiixF2f7pCSmHvCQJUkM
+id: yza_local_tasks
 theme: yza
 region: tabs
-weight: 0
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

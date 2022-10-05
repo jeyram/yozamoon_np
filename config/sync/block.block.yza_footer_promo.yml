@@ -1,0 +1,23 @@
+uuid: 05cc7440-98da-4352-b7e0-59289bbcf352
+langcode: es
+status: true
+dependencies:
+  theme:
+    - yza
+_core:
+  default_config_hash: 5wLGN6Ubw4i3lmahRmdUwHgdsfmUDfOKgfRfUILzpwQ
+id: yza_footer_promo
+theme: yza
+region: footer
+weight: -1
+provider: null
+plugin: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+settings:
+  id: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+  label: 'Promoción de pie de página YozaMoon'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 2d62142c-701e-4579-9d11-771ce2182a67
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_servings
+    - node.type.recipe
+_core:
+  default_config_hash: 7papdLmMWf4aB4MVwKKdng2cGsMf1ySLRGAcJ1bOwag
+id: node.recipe.field_number_of_servings
+field_name: field_number_of_servings
+entity_type: node
+bundle: recipe
+label: 'Cantidad de porciones'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

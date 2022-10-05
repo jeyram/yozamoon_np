@@ -1,0 +1,10 @@
+uuid: 8bbe821f-5691-4fbd-8872-172c08cd2915
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _pCMU5fiFIhusD-eK3I_2BAZIrFoctN1lcuJfL5mnZY
+id: disclaimer_block
+label: 'Bloque de descargo de responsabilidad'
+revision: 0
+description: 'Un bloque de descargo de responsabilidad que contiene el descargo de responsabilidad y el texto de copyright.'

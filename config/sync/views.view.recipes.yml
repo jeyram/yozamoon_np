@@ -1,20 +1,20 @@
-uuid: 4c4122d2-4c8e-4397-875d-721cd1372f43
+uuid: 061d7c6c-81bd-4fdd-96d0-05d343486230
 langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.card
-    - node.type.article
+    - node.type.recipe
     - system.menu.main
   module:
     - node
     - user
 _core:
-  default_config_hash: 2LvgMiGJX6xeQSnjnJC3KpqBoG91zxN_zCzC4FSITM0
-id: featured_articles
-label: 'Artículos Destacados'
+  default_config_hash: En5QkWdJsAtcVb0hEAQBQro9nJ-IJM5HlnQPoQ5qwYA
+id: recipes
+label: Recetas
 module: views
-description: 'Una vista para crear una lista de artículos destacados desde el sitio YozaMoon.'
+description: 'Listado de recetas'
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -25,7 +25,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Artículos
+      title: Recetas
       fields:
         title:
           id: title
@@ -78,7 +78,7 @@ display:
         type: mini
         options:
           offset: 0
-          items_per_page: 9
+          items_per_page: 12
           total_pages: null
           id: 0
           tags:
@@ -165,7 +165,7 @@ display:
           entity_field: type
           plugin_id: bundle
           value:
-            article: article
+            recipe: recipe
           group: 1
           expose:
             operator_limit_selection: false
@@ -230,7 +230,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      css_class: grid--3
+      css_class: grid--4
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -251,12 +251,12 @@ display:
     display_options:
       rendering_language: '***LANGUAGE_language_interface***'
       display_extenders: {  }
-      path: articles
+      path: recipes
       menu:
         type: normal
-        title: Artículos
+        title: Recetas
         description: ''
-        weight: 20
+        weight: 30
         expanded: false
         menu_name: main
         parent: ''

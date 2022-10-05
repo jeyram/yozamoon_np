@@ -1,0 +1,30 @@
+uuid: a9dd36ac-fa88-45ca-9edf-6f1bb83e37b0
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yza
+_core:
+  default_config_hash: FRHdZ9yQqLxb7ZXTh01K691TNR820Eq8O0av6r1wW9Y
+id: yza_banner_home
+theme: yza
+region: banner_top
+weight: -7
+provider: null
+plugin: 'block_content:9aadf4a1-ded6-4017-a10d-a5e043396edf'
+settings:
+  id: 'block_content:9aadf4a1-ded6-4017-a10d-a5e043396edf'
+  label: 'Banner de la página de inicio de YozaMoon'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '<front>'
