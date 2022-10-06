@@ -1,4 +1,4 @@
-uuid: 0883d6c9-2df4-4adc-bfaf-4bc8e2000406
+uuid: d905fee6-be33-4cf3-a3a2-b1c25aad6b41
 langcode: es
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
     - search
     - system
 _core:
-  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+  default_config_hash: Gl1lr_RJQ9pMz_DZhY6pNX94k874Gqh15Gm8Du1EepQ
 id: anonymous
 label: 'Usuario anónimo'
 weight: 0

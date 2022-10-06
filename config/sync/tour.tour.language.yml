@@ -1,4 +1,4 @@
-uuid: cb5c5877-bcea-4700-9b63-ca88c972d768
+uuid: 64fe465f-43c2-46a4-a12f-808f5544875b
 langcode: es
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: Okz8QMYRGvq95nqLGYjp8gLiy93DKoMEzEVZVwEeg4M
 id: language
-label: Language
+label: Idioma
 module: language
 routes:
   -

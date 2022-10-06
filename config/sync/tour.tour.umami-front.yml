@@ -1,12 +1,14 @@
 uuid: 84eda085-7bfe-43e5-8396-f2f072d8023e
 langcode: es
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - demo_umami
 _core:
   default_config_hash: t80UBAZ-cqjuI6uDTHjRSMw1JfoHLkTh6YguTct6LbQ
-id: yza-front
+id: umami-front
 label: 'Página de Inicio'
-module: null
+module: demo_umami
 routes:
   -
     route_name: view.frontpage.page_1
@@ -14,9 +16,9 @@ tips:
   welcome:
     id: welcome
     plugin: text
-    label: 'Bienvenido a la demostración de Drupal YozaMoon'
+    label: 'Bienvenido a la demostración de Drupal Umami'
     weight: 1
-    body: 'Drupal es un poderoso sistema de administración de contenido de código abierto y esta demostración, basada en una revista de alimentos ficticia llamada YozaMoon, le presentará algunos de los conceptos y características de Drupal.'
+    body: 'Drupal es un poderoso sistema de administración de contenido de código abierto y esta demostración, basada en una revista de alimentos ficticia llamada Umami, le presentará algunos de los conceptos y características de Drupal.'
   out-of-the-box:
     id: out-of-the-box
     plugin: text
@@ -30,15 +32,15 @@ tips:
     weight: 3
     position: right
     selector: .menu-main__link.is-active
-    body: 'Este es el menú de navegación principal para el sitio web de YozaMoon. Es fácil crear y administrar menús y puede crear tantos menús como lo requiera su sitio. Por ejemplo, este sitio proporciona esta navegación principal, así como la navegación de usuario que se muestra arriba.'
-  yza-theme:
-    id: yza-theme
+    body: 'Este es el menú de navegación principal para el sitio web de Umami. Es fácil crear y administrar menús y puede crear tantos menús como lo requiera su sitio. Por ejemplo, este sitio proporciona esta navegación principal, así como la navegación de usuario que se muestra arriba.'
+  umami-theme:
+    id: umami-theme
     plugin: text
-    label: 'El tema YozaMoon'
+    label: 'El tema Umami'
     weight: 4
     position: left
     selector: '.block-type-banner-block .summary'
-    body: 'Este sitio web utiliza el tema YozaMoon personalizado para darle estilo a su apariencia. Este tema se ha creado utilizando CSS y personalizando las plantillas HTML de Drupal que se crean utilizando el popular sistema de plantillas Twig. Los temas están también disponibles para su descarga e instalación.'
+    body: 'Este sitio web utiliza el tema Umami personalizado para darle estilo a su apariencia. Este tema se ha creado utilizando CSS y personalizando las plantillas HTML de Drupal que se crean utilizando el popular sistema de plantillas Twig. Los temas están también disponibles para su descarga e instalación.'
   managing-content:
     id: managing-content
     plugin: text
@@ -47,16 +49,16 @@ tips:
     position: left
     selector: '.view-promoted-items--single .read-more__link'
     body: 'Este sitio web de ejemplo proporciona una colección de artículos y recetas que demuestran cómo el contenido se puede administrar fácilmente de una forma flexible y estructurada.'
-  yza-front-views:
-    id: yza-front-content
+  umami-front-views:
+    id: umami-front-content
     plugin: text
     label: 'Configurando la visualización del contenido'
     weight: 6
     position: right
     selector: '.view-promoted-items--double .node:nth-child(1)'
     body: 'Los modos de visualización se pueden configurar para proporcionar diferentes presentaciones de contenido. Estos artículos y recetas promocionados utilizan la función de modos de visualización para formatear las imágenes con diferentes proporciones.'
-  yza-views:
-    id: yza-views
+  umami-views:
+    id: umami-views
     plugin: text
     label: 'Displaying content with Views'
     weight: 7

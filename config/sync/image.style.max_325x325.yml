@@ -1,4 +1,4 @@
-uuid: 268a5d2b-6ae1-4395-a1de-3530c20ed2f0
+uuid: 795dbead-a332-485e-8061-4cce41e063de
 langcode: es
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     module:
       - responsive_image
 _core:
-  default_config_hash: HAJh3VFnKZmYvJF2Rsnc2HETYtffmXFcQr2FhVPmnSU
+  default_config_hash: thLnNB0sP0KQ9-TStVzAAlgqFygAiHMxjJ-vjqclw-Q
 name: max_325x325
-label: 'Max 325x325'
+label: 'Máximo 325x325'
 effects:
   cb842cc8-682f-42a6-bd05-5a1ac726f0d8:
     uuid: cb842cc8-682f-42a6-bd05-5a1ac726f0d8

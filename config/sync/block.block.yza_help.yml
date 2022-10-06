@@ -1,4 +1,4 @@
-uuid: 32e41679-bd74-4e99-9900-bcf360449256
+uuid: eb2b800c-0acc-492c-96ab-bb8239af5962
 langcode: es
 status: true
 dependencies:
@@ -7,16 +7,16 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+  default_config_hash: YC1H0JGjRvoA9RedtLhXY-9AYUTPz3XxcmDb_3H-tWY
 id: yza_help
 theme: yza
 region: highlighted
-weight: -6
+weight: 0
 provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Ayuda
+  label: Help
   label_display: '0'
   provider: help
 visibility: {  }

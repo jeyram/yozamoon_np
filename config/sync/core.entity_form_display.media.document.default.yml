@@ -1,4 +1,4 @@
-uuid: 77f6c082-b797-4755-b329-a6262ff3f5b4
+uuid: dab7c4bc-c3c5-41d5-b845-ddb0242445a4
 langcode: es
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - file
     - path
 _core:
-  default_config_hash: aewrRkePgJzdD5kPOq8JeMcKHs6yat49nE7ZeCQzQZg
+  default_config_hash: SFLP8Fu1rzJvXIq40nS6U8ihXjJAjAMrFcKiOKCndGk
 id: media.document.default
 targetEntityType: media
 bundle: document
@@ -37,7 +37,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -59,4 +59,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
+  moderation_state: true
   name: true

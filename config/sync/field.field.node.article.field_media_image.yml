@@ -1,4 +1,4 @@
-uuid: 958b8db5-5449-442b-a57f-190fd042dfe4
+uuid: 69b9772c-811c-4835-b182-475cb13327c8
 langcode: es
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_media_image
     - media.type.image
     - node.type.article
+_core:
+  default_config_hash: Dfvz5jYPmv2LmsUWibogVL4H987sLO5Kjm7_ezAt_Gg
 id: node.article.field_media_image
 field_name: field_media_image
 entity_type: node

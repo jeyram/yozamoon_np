@@ -1,4 +1,4 @@
-uuid: 39df18d3-8131-48c4-b419-bd2500941bd9
+uuid: e50c8e09-20b2-494c-ae94-b320aa8d9ff7
 langcode: es
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - file
     - path
 _core:
-  default_config_hash: G2_SKH3jmI9FQeXSUxo3KgQqiyF1hPDEkc7-3-rCSbc
+  default_config_hash: uEvNjN8-2u2NumwM6gXE6dfcLE1mHBmjkNcJ5yKZUos
 id: media.audio.default
 targetEntityType: media
 bundle: audio
@@ -59,4 +59,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
+  moderation_state: true
   name: true

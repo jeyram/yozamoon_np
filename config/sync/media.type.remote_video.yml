@@ -1,12 +1,12 @@
-uuid: 75278f97-facf-49ad-832b-a08f95434d2b
+uuid: 794a7c61-b9f8-4f87-8761-997f496e625c
 langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: hIBTnDGgDKnCiP6HUZm1m7600DHUEpC6FN3LQ4sUgZ4
 id: remote_video
-label: 'Remote video'
-description: 'A remotely hosted video from YouTube or Vimeo.'
+label: 'Video remoto'
+description: 'Un video almacenado remotamente en Youtube o Vimeo.'
 source: 'oembed:video'
 queue_thumbnail_downloads: false
 new_revision: true

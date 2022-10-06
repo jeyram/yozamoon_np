@@ -1,4 +1,4 @@
-uuid: 61ed7060-0a39-4520-8132-29b16e3114b0
+uuid: b607fec6-ae31-4462-b3c0-d9e45537ff71
 langcode: es
 status: false
 dependencies:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: 6NBUEuGmlkClK8Fb76tSMMpO2eZ4LWCBdbUk4z7CuP0
 id: media.full
-label: 'Full content'
+label: 'Contenido completo'
 targetEntityType: media
 cache: true

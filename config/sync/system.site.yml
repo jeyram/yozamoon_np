@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: es
 uuid: d3f1f529-be87-4314-b966-d0d88bc8d66c
-name: 'Yoza Moon'
+name: 'Drush Site-Install'
 mail: admin@example.com
 slogan: ''
 page:

@@ -1,20 +1,27 @@
-uuid: aecd7dec-294a-4371-8909-da0450921c93
+uuid: eb299838-f4ee-48e5-b99d-a4229f7582f7
 langcode: es
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - yza
 _core:
-  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+  default_config_hash: iAhownPneFU_HfOgPVITz339xTxjd_yAzbcBOUBd4Sk
 id: yza_page_title
 theme: yza
 region: page_title
-weight: -6
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Título de la página'
+  label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

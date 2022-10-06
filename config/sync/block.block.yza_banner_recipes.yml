@@ -1,11 +1,17 @@
-uuid: be5a763b-7ed9-47a5-a1a9-07f7a7692dd9
+uuid: d7508cdc-fba5-459c-8201-21a090e747d1
 langcode: es
 status: true
 dependencies:
+  content:
+    - 'block_content:banner_block:4c7d58a3-a45d-412d-9068-259c57e40541'
   module:
+    - block_content
     - system
   theme:
     - yza
+  enforced:
+    module:
+      - demo_umami_content
 _core:
   default_config_hash: IkW5_SiJrLyjpht0MTFKFFUcnakHfT1AJaN0VTL4gn8
 id: yza_banner_recipes
@@ -16,7 +22,7 @@ provider: null
 plugin: 'block_content:4c7d58a3-a45d-412d-9068-259c57e40541'
 settings:
   id: 'block_content:4c7d58a3-a45d-412d-9068-259c57e40541'
-  label: 'Publicidad de recetas YozaMoon'
+  label: 'Umami Recipes Banner'
   label_display: '0'
   provider: block_content
   status: true

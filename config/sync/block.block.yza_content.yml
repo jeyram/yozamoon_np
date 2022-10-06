@@ -1,4 +1,4 @@
-uuid: 19485469-0149-4f79-a72d-e9482ebdc1be
+uuid: 9f8cdfa8-60e1-4ae7-ab23-c4c9996fbca8
 langcode: es
 status: true
 dependencies:
@@ -7,16 +7,16 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+  default_config_hash: R0XK_KzE-HPbKLfcvVjZF2FL79MUEIipq_nDvje9MRQ
 id: yza_content
 theme: yza
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Contenido principal de la página'
+  label: 'Main page content'
   label_display: '0'
   provider: system
 visibility: {  }

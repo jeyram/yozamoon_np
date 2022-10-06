@@ -1,4 +1,4 @@
-uuid: 46532da3-faf5-461b-9ad0-c0528b56ad82
+uuid: 92c8036c-bea6-450f-901d-6293f03e492d
 langcode: es
 status: true
 dependencies:
@@ -9,16 +9,16 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
+  default_config_hash: iDZiXP2IUN3qEE__zNOAVdC9bO4zxZ3IB2OsPZ_dezM
 id: yza_account_menu
 theme: yza
 region: pre_header
-weight: -6
+weight: 2
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'Menú de cuenta de usuario'
+  label: 'User account menu'
   label_display: '0'
   provider: system
   level: 1

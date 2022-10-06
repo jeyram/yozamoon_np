@@ -1,4 +1,4 @@
-uuid: 236234b9-4a81-487e-81c8-d110fbef1579
+uuid: a6428855-ef5c-468f-95f3-1ae6b3cdba23
 langcode: es
 status: true
 dependencies:
@@ -7,17 +7,17 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
-id: yza_search_form_narrow
+  default_config_hash: ytgVjVWmeHzXTVcvVy0XfswIHZw1sCgY-dDI8XWDvHI
+id: yza_search
 theme: yza
 region: pre_header
-weight: -7
+weight: 1
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Buscar
-  label_display: '0'
+  label: Search
+  label_display: visible
   provider: search
-  page_id: ''
+  page_id: node_search
 visibility: {  }

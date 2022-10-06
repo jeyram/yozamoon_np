@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: z8N89KekZ75jFUeGfDm10tYPfCSpiil6GkH__1bcJyQ
-id: yza_dates
-label: 'Fechas YozaMoon'
+id: umami_dates
+label: 'Fechas Umami'
 locked: false
 pattern: 'jS F Y'

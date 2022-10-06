@@ -1,4 +1,4 @@
-uuid: b1478c01-15b1-44c8-88be-226dd83e6b97
+uuid: 57f23312-6e76-41e6-8329-c631ad359a99
 langcode: es
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: CsK6TseQ2DatEbZgbd30swOlZ28_HHwAESU2LvEnWq0
 id: media_unpublish_action
-label: 'Unpublish media'
+label: 'Medio no publicado'
 type: media
 plugin: 'entity:unpublish_action:media'
 configuration: {  }

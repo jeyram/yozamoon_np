@@ -1,4 +1,4 @@
-uuid: 485fdabc-0b57-4a1b-b7ee-caf8b892ceeb
+uuid: f378e1f0-5b3e-482d-ab38-96286186f9a8
 langcode: es
 status: true
 dependencies:
@@ -6,24 +6,17 @@ dependencies:
     - field.storage.media.field_media_image
     - media.type.image
   module:
-    - content_translation
     - image
   enforced:
     module:
       - media
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
 _core:
   default_config_hash: HGRX21ciyn7K-q8KMxsKHQvIB4SHT-A3bqzmNDnGKyc
 id: media.image.field_media_image
 field_name: field_media_image
 entity_type: media
 bundle: image
-label: Image
+label: Imagen
 description: ''
 required: true
 translatable: true

@@ -1,4 +1,4 @@
-uuid: 763c8fb0-c243-49aa-bfef-c47497028d0e
+uuid: b51ef9bb-6d96-4cf0-8a2e-ec855437e3c1
 langcode: es
 status: true
 dependencies:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Dinos qué piensas'
+  label: 'Tell us what you think'
   label_display: '1'
   provider: system
   level: 1

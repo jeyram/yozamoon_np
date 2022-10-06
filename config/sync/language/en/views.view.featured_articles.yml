@@ -1,5 +1,5 @@
 label: 'Featured Articles'
-description: 'A view to create a list of featured articles from the YozaMoon website.'
+description: 'A view to create a list of featured articles from the Umami website.'
 display:
   default:
     display_title: Default

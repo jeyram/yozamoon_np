@@ -1,4 +1,4 @@
-uuid: b40b12db-7aab-4226-9e88-2837476a8391
+uuid: 98a46442-1c07-4e47-806f-d8d4be0f3437
 langcode: es
 status: true
 dependencies:
@@ -9,8 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
-    bundle_settings:
-      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: p53Q2UIlOG3WlSHQObzOfiCUvAchLZ-3Ft19kvO5nmI
 id: media.image
 target_entity_type_id: media
 target_bundle: image

@@ -1,12 +1,12 @@
-uuid: 202b1fce-0e9f-494e-9d20-2e12af1115cf
+uuid: 53eea035-676a-4ce1-914f-e57ca9424aab
 langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: _D9q3XSnP6ik9we9UuoTvZsQKPuYNp_G9PfwVtWzgnQ
 id: document
-label: Document
-description: 'An uploaded file or document, such as a PDF.'
+label: Documento
+description: 'Un archivo o documento subido, como por ejemplo un PDF.'
 source: file
 queue_thumbnail_downloads: false
 new_revision: true

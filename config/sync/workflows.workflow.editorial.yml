@@ -1,63 +1,71 @@
-uuid: caa7af43-2a17-4d26-8435-a2c235985c54
+uuid: 4461b801-5843-41aa-85b8-f5ec09c5643f
 langcode: es
 status: true
 dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - node.type.recipe
   module:
     - content_moderation
 _core:
-  default_config_hash: T7gMMyFbTYLalxpIOnzJebvek2OW0b1RgLVE9I2y228
+  default_config_hash: DY4MQdo3Dq4vrHrQlJy_cSq6qveq6nHSjWM8f-zpAPE
 id: editorial
 label: Editorial
 type: content_moderation
 type_settings:
   states:
     archived:
-      label: Archived
+      label: Archivado
       weight: 5
       published: false
       default_revision: true
     draft:
-      label: Draft
+      label: Borrador
       weight: -5
       published: false
       default_revision: false
     published:
-      label: Published
+      label: Publicado
       weight: 0
       published: true
       default_revision: true
   transitions:
     archive:
-      label: Archive
+      label: Archivo
       from:
         - published
       to: archived
       weight: 2
     archived_draft:
-      label: 'Restore to Draft'
+      label: 'Restaurar a Borrador'
       from:
         - archived
       to: draft
       weight: 3
     archived_published:
-      label: Restore
+      label: Restaurar
       from:
         - archived
       to: published
       weight: 4
     create_new_draft:
-      label: 'Create New Draft'
+      label: 'Crear nuevo borrador'
       from:
         - draft
         - published
       to: draft
       weight: 0
     publish:
-      label: Publish
+      label: Publicar
       from:
         - draft
         - published
       to: published
       weight: 1
-  entity_types: {  }
+  entity_types:
+    node:
+      - article
+      - page
+      - recipe
   default_moderation_state: draft

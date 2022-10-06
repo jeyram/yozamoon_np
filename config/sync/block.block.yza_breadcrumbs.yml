@@ -1,4 +1,4 @@
-uuid: 4a3ac825-ac4b-42c3-b00a-6c7b07f59b8e
+uuid: d751db01-ec66-4367-8b30-df79d28e3c27
 langcode: es
 status: true
 dependencies:
@@ -7,16 +7,21 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+  default_config_hash: 5prrlTxk8gDlnDH_jhnc0dNihAw8WT-RVZ3nrec_wiE
 id: yza_breadcrumbs
 theme: yza
 region: breadcrumbs
-weight: -7
+weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: 'Enlaces de ayuda a la navegación'
+  label: Breadcrumbs
   label_display: '0'
   provider: system
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

@@ -1,4 +1,4 @@
-uuid: b68a9115-bf23-4d98-9440-c684188b79bb
+uuid: d5d3ae2a-b0ea-4954-8aea-9bb31b689b43
 langcode: es
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - media
     - path
 _core:
-  default_config_hash: pM8mGlwfpvfG_y5tZn0lGAXFLXz2_yKkL7MvWZsRqdA
+  default_config_hash: 5QJF8mllg4S9vd6iav0J5EDP5lFAlLGK5bDFvv5LBOE
 id: media.remote_video.default
 targetEntityType: media
 bundle: remote_video
@@ -51,7 +51,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
@@ -60,4 +60,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
+  moderation_state: true
   name: true

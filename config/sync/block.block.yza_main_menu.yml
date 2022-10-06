@@ -1,4 +1,4 @@
-uuid: c1df628c-77a2-4fcf-9a75-022b3c9f8b52
+uuid: efb01b1a-76dd-4630-beda-3fda1d33091f
 langcode: es
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - yza
 _core:
-  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
+  default_config_hash: AfSUDNgp83BgtFu-6vdnbBScZBJUji6fn_L4_7296DY
 id: yza_main_menu
 theme: yza
 region: header
@@ -18,10 +18,10 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Navegación principal'
+  label: 'Main navigation'
   label_display: '0'
   provider: system
   level: 1
-  depth: 2
-  expand_all_items: true
+  depth: 1
+  expand_all_items: false
 visibility: {  }

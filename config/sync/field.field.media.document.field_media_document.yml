@@ -1,4 +1,4 @@
-uuid: d077b6d3-acaa-4cd8-80f1-d12bc56e6c08
+uuid: 66229166-473a-4d6a-b17e-361cf91a7436
 langcode: es
 status: true
 dependencies:
@@ -16,10 +16,10 @@ id: media.document.field_media_document
 field_name: field_media_document
 entity_type: media
 bundle: document
-label: Document
+label: Documento
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

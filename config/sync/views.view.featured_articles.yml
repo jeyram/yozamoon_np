@@ -14,7 +14,7 @@ _core:
 id: featured_articles
 label: 'Artículos Destacados'
 module: views
-description: 'Una vista para crear una lista de artículos destacados desde el sitio YozaMoon.'
+description: 'Una vista para crear una lista de artículos destacados desde el sitio Umami.'
 tag: ''
 base_table: node_field_data
 base_field: nid

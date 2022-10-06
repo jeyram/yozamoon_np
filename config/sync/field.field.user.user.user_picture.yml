@@ -1,4 +1,4 @@
-uuid: 44b0d12c-159c-4f0f-ade5-34929dd0ce1f
+uuid: c338502d-01fe-4aa4-bd30-7a9077ab7bb5
 langcode: es
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: user
 label: Imagen
 description: 'Su cara o foto virtual.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
