@@ -8,9 +8,7 @@ dependencies:
     - block_content
   theme:
     - yza
-  enforced:
-    module:
-      - demo_umami_content
+
 _core:
   default_config_hash: OIQOHpV2c31Zgo6ondYNG3s-Ggp600ejI8bts7XVOIs
 id: yza_disclaimer

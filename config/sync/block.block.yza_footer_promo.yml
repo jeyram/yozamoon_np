@@ -8,9 +8,7 @@ dependencies:
     - block_content
   theme:
     - yza
-  enforced:
-    module:
-      - demo_umami_content
+
 _core:
   default_config_hash: 5wLGN6Ubw4i3lmahRmdUwHgdsfmUDfOKgfRfUILzpwQ
 id: yza_footer_promo

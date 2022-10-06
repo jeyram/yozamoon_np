@@ -9,9 +9,6 @@ dependencies:
     - system
   theme:
     - yza
-  enforced:
-    module:
-      - demo_umami_content
 _core:
   default_config_hash: IkW5_SiJrLyjpht0MTFKFFUcnakHfT1AJaN0VTL4gn8
 id: yza_banner_recipes
