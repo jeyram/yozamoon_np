@@ -1,0 +1,18 @@
+uuid: 5551abf0-4d02-4a24-99a5-4a698720438e
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: G3u6fc7JZoDvaeSgwA-ik8RL5Z2B6-ItEtSuicDgobw
+id: block_content.banner_block
+target_entity_type_id: block_content
+target_bundle: banner_block
+default_langcode: site_default
+language_alterable: true

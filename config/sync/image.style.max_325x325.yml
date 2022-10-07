@@ -1,0 +1,20 @@
+uuid: 795dbead-a332-485e-8061-4cce41e063de
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - responsive_image
+_core:
+  default_config_hash: thLnNB0sP0KQ9-TStVzAAlgqFygAiHMxjJ-vjqclw-Q
+name: max_325x325
+label: 'Máximo 325x325'
+effects:
+  cb842cc8-682f-42a6-bd05-5a1ac726f0d8:
+    uuid: cb842cc8-682f-42a6-bd05-5a1ac726f0d8
+    id: image_scale
+    weight: 1
+    data:
+      width: 325
+      height: 325
+      upscale: false

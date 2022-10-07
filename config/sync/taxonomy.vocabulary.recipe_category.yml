@@ -1,0 +1,10 @@
+uuid: 8cf0ea28-fab8-48eb-989a-2178b64d5977
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wm3zsxqjVUNldWJhh-FumMfn2duT5EdGZstKm92JNak
+name: 'Categoría de la receta'
+vid: recipe_category
+description: 'Utilice esta taxonomía para agrupar recetas del mismo tipo.'
+weight: 0

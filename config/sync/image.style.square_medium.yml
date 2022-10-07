@@ -1,0 +1,17 @@
+uuid: 14e06525-193b-4ec0-8cdb-0b94ad9a83f2
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wPTDrXwFarTAD8muUEMbKeIXFvD14xBXHhdrDxLRQF8
+name: square_medium
+label: 'Cuadrado Medio'
+effects:
+  c42becc5-dd14-4384-81e1-8a667c60a705:
+    uuid: c42becc5-dd14-4384-81e1-8a667c60a705
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 600
+      anchor: center-center

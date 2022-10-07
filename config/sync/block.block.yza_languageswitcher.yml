@@ -1,0 +1,22 @@
+uuid: 3340f97a-cd7e-4376-97d5-26569e8ec755
+langcode: es
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - yza
+_core:
+  default_config_hash: dhs54rZwlADLhS_wtViUXbtrVppO7Fv6NtlzOlK8iCE
+id: yza_languageswitcher
+theme: yza
+region: pre_header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

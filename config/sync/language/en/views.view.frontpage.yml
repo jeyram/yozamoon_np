@@ -17,16 +17,7 @@ display:
           content: 'No front page content has been created yet.'
         title:
           title: 'Welcome to [site:name]'
-      header:
-        area:
-          content:
-            value: '<p class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level.</p>'
   feed_1:
     display_title: Feed
   page_1:
     display_title: Page
-    display_options:
-      header:
-        area:
-          content:
-            value: '<p class="text-align-center">Explore recipes across every type of occasion, ingredient, and skill level</p>'

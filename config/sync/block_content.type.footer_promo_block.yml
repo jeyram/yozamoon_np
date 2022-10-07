@@ -1,0 +1,10 @@
+uuid: f4c5ccea-7ff0-4367-9455-253b60a5cdf9
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1OCKdTtMY6QI5-V9y-phCzW_SEM6FDLAiHx1yh4song
+id: footer_promo_block
+label: 'Bloque de promoción de pie de página'
+revision: 0
+description: 'Un bloque de promoción de pie de página que contiene un título, un texto de promoción y un vínculo de "saber más".'
