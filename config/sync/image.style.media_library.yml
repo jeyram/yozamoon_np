@@ -1,4 +1,4 @@
-uuid: 4288e7c2-7019-45f9-bfe9-f625ad8fd4df
+uuid: 79cdc873-2d3a-4ec0-a335-947dc4771c93
 langcode: es
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: 7qJqToD1OQLAyeswpmg7M0LRxQlw1URQkJDWUJCnmR8
 name: media_library
-label: 'Miniatura de Media Library (220×220)'
+label: 'Media Library thumbnail (220×220)'
 effects:
   75b076a8-1234-4b42-85db-bf377c4d8d5f:
     uuid: 75b076a8-1234-4b42-85db-bf377c4d8d5f
