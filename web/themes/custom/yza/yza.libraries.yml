@@ -50,8 +50,6 @@ global:
       css/layout/layout.css: {}
   js:
     js/components/navigation/menu-main/menu-main.js: {}
-  dependencies:
-    - yza/demo-yza-tour
 
 messages:
   css:
@@ -126,13 +124,6 @@ view-mode-card-common-alt:
       css/components/content/card-common-alt/card-common-alt.css: {}
   dependencies:
     - yza/more-link
-
-demo-yza-tour:
-  css:
-   theme:
-      css/components/tour/tour.theme.css: {}
-  dependencies:
-    - seven/tour-styling
 
 oneplusfourgrid_section:
   css:

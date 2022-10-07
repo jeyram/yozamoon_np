@@ -1,7 +1,7 @@
 name: yza
 type: theme
 base theme: false
-description: 'The theme used for the yza food magazine demonstration site.'
+description: 'The theme used for the Yoza Moon site.'
 version: VERSION
 core_version_requirement: ^8 || ^9
 
@@ -28,8 +28,6 @@ libraries-override:
         layouts/fourcol_section/fourcol_section.css: layouts/fourcol_section/fourcol_section.css
 
 libraries-extend:
-  tour/tour-styling:
-    - yza/demo-yza-tour
   core/drupal.dialog:
     - yza/classy.dialog
   core/drupal.dropbutton:
