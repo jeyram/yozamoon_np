@@ -2,10 +2,6 @@ uuid: 3e82e751-fed0-42d1-a27b-b71672aabae2
 langcode: es
 status: true
 dependencies:
-  content:
-    - 'block_content:footer_promo_block:924ab293-8f5f-45a1-9c7f-2423ae61a241'
-  module:
-    - block_content
   theme:
     - yza
 _core:

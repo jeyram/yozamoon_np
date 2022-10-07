@@ -11,7 +11,7 @@ _core:
 id: yza_messages
 theme: yza
 region: highlighted
-weight: -5
+weight: -10
 provider: null
 plugin: system_messages_block
 settings:

@@ -13,7 +13,7 @@ _core:
 id: yza_account_menu
 theme: yza
 region: pre_header
-weight: -6
+weight: -10
 provider: null
 plugin: 'system_menu_block:account'
 settings:

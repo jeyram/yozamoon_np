@@ -2,6 +2,8 @@ uuid: 89e10d67-b79b-48af-b9d7-5fc929765412
 langcode: es
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - yza
 _core:
@@ -17,4 +19,8 @@ settings:
   label: 'Título de la página'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

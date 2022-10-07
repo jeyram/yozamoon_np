@@ -1,0 +1,30 @@
+uuid: 9cba8c90-1ef7-4181-82b1-57bc6914656b
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_block:8074c556-d7bb-435d-921e-446cea053c84'
+  module:
+    - block_content
+    - system
+  theme:
+    - yza
+id: yzahomebanner
+theme: yza
+region: banner_top
+weight: -11
+provider: null
+plugin: 'block_content:8074c556-d7bb-435d-921e-446cea053c84'
+settings:
+  id: 'block_content:8074c556-d7bb-435d-921e-446cea053c84'
+  label: 'Yza Home Banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

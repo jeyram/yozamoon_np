@@ -2,10 +2,6 @@ uuid: 87824b20-9aa6-4348-95ce-16e32f868439
 langcode: es
 status: true
 dependencies:
-  content:
-    - 'block_content:disclaimer_block:9b4dcd67-99f3-48d0-93c9-2c46648b29de'
-  module:
-    - block_content
   theme:
     - yza
 _core:
