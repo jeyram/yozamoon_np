@@ -11,7 +11,7 @@ _core:
 id: yza_breadcrumbs
 theme: yza
 region: pre_header
-weight: 0
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:
