@@ -1,16 +1,16 @@
-uuid: 3d724682-2a91-41ea-915b-e745a7dbb39f
+uuid: 3a17ec7c-6cdb-4e68-aadc-e0ae37913617
 langcode: es
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
-id: olivero_powered
-theme: olivero
-region: footer_bottom
+id: yza_powered
+theme: yza
+region: pre_header
 weight: 0
 provider: null
 plugin: system_powered_by_block

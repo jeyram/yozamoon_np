@@ -1,16 +1,16 @@
-uuid: 41b021a1-23c9-4542-88b2-a4ec53b60c08
+uuid: 01b7da80-605d-46cc-aaed-68d6d2068b8b
 langcode: es
 status: true
 dependencies:
   module:
     - help
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
-id: olivero_help
-theme: olivero
-region: content_above
+id: yza_help
+theme: yza
+region: pre_header
 weight: 0
 provider: null
 plugin: help_block

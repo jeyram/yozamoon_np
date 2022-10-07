@@ -1,14 +1,14 @@
-uuid: 7628ba41-212d-410d-9c0c-d2e105d17ea1
+uuid: 89e10d67-b79b-48af-b9d7-5fc929765412
 langcode: es
 status: true
 dependencies:
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: olivero_page_title
-theme: olivero
-region: content_above
+id: yza_page_title
+theme: yza
+region: pre_header
 weight: -5
 provider: null
 plugin: page_title_block

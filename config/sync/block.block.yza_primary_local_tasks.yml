@@ -1,13 +1,13 @@
-uuid: 7e0278ab-357d-4418-a049-5ec27c867111
+uuid: a1be9e72-ed03-4618-97dd-9fd25268fdfb
 langcode: es
 status: true
 dependencies:
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
-id: olivero_primary_local_tasks
-theme: olivero
+id: yza_primary_local_tasks
+theme: yza
 region: highlighted
 weight: -4
 provider: null

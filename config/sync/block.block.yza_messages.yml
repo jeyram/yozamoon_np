@@ -1,15 +1,15 @@
-uuid: 801dc1ee-d409-4d4e-b81f-f401a638491e
+uuid: a99a39d1-7c72-4628-898b-b80e22bc8222
 langcode: es
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
-id: olivero_messages
-theme: olivero
+id: yza_messages
+theme: yza
 region: highlighted
 weight: -5
 provider: null

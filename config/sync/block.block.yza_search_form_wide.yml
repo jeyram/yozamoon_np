@@ -1,16 +1,16 @@
-uuid: 88037d53-b019-4c3a-88af-6612c7bb7d6f
+uuid: 5e657f2f-893e-4d1d-8477-96ca5863ec46
 langcode: es
 status: true
 dependencies:
   module:
     - search
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
-id: olivero_search_form_wide
-theme: olivero
-region: secondary_menu
+id: yza_search_form_wide
+theme: yza
+region: pre_header
 weight: -5
 provider: null
 plugin: search_form_block

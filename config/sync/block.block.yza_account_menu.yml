@@ -1,4 +1,4 @@
-uuid: 895d4a47-64d9-49a0-b390-f6a47b27e974
+uuid: 91c78439-0086-49b5-97e1-1e5a11fd94e3
 langcode: es
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
-id: olivero_account_menu
-theme: olivero
-region: secondary_menu
+id: yza_account_menu
+theme: yza
+region: pre_header
 weight: -4
 provider: null
 plugin: 'system_menu_block:account'

@@ -1,16 +1,16 @@
-uuid: 4ea98b68-2206-42a8-ae61-4fc89864be81
+uuid: 95754b7d-dfe1-433d-923b-2d2ae73991e3
 langcode: es
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - yza
 _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: olivero_breadcrumbs
-theme: olivero
-region: breadcrumb
+id: yza_breadcrumbs
+theme: yza
+region: pre_header
 weight: 0
 provider: null
 plugin: system_breadcrumb_block
