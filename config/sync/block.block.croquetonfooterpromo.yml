@@ -1,0 +1,25 @@
+uuid: 772250fa-c562-49f9-b074-93e785cfd96e
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_promo_block:b90b4f4d-3dfb-4fcd-a9d9-9001bfa384d5'
+  module:
+    - block_content
+  theme:
+    - yza
+id: croquetonfooterpromo
+theme: yza
+region: footer
+weight: -9
+provider: null
+plugin: 'block_content:b90b4f4d-3dfb-4fcd-a9d9-9001bfa384d5'
+settings:
+  id: 'block_content:b90b4f4d-3dfb-4fcd-a9d9-9001bfa384d5'
+  label: 'Croquetón Footer Promo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -13,13 +13,13 @@ _core:
 id: yza_footer
 theme: yza
 region: footer
-weight: 0
+weight: -8
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Tell us what you think'
-  label_display: '1'
+  label: 'Dinos qué piensas'
+  label_display: visible
   provider: system
   level: 1
   depth: 0

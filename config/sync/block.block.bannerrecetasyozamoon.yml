@@ -1,0 +1,30 @@
+uuid: 733b30f6-e233-420f-933b-4d57e067ed4f
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_block:d023c4b9-364f-4a5c-a32c-e81c09516d08'
+  module:
+    - block_content
+    - system
+  theme:
+    - yza
+id: bannerrecetasyozamoon
+theme: yza
+region: banner_top
+weight: -9
+provider: null
+plugin: 'block_content:d023c4b9-364f-4a5c-a32c-e81c09516d08'
+settings:
+  id: 'block_content:d023c4b9-364f-4a5c-a32c-e81c09516d08'
+  label: 'Banner Recetas Yoza Moon'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recipes

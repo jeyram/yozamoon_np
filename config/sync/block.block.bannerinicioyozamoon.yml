@@ -1,4 +1,4 @@
-uuid: 9cba8c90-1ef7-4181-82b1-57bc6914656b
+uuid: 0abe17b4-f7fd-4b71-9f6b-18c65c196e1b
 langcode: es
 status: true
 dependencies:
@@ -9,15 +9,15 @@ dependencies:
     - system
   theme:
     - yza
-id: yzahomebanner
+id: bannerinicioyozamoon
 theme: yza
 region: banner_top
-weight: -11
+weight: -8
 provider: null
 plugin: 'block_content:8074c556-d7bb-435d-921e-446cea053c84'
 settings:
   id: 'block_content:8074c556-d7bb-435d-921e-446cea053c84'
-  label: 'Yza Home Banner'
+  label: 'Banner Inicio Yoza Moon'
   label_display: '0'
   provider: block_content
   status: true

@@ -1,0 +1,25 @@
+uuid: ce4c0f03-154f-4f1e-9dff-7a591ed8ec08
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:disclaimer_block:d68c8992-a263-4723-90b4-f75986ed980f'
+  module:
+    - block_content
+  theme:
+    - yza
+id: avisolegalyozamoon
+theme: yza
+region: bottom
+weight: 0
+provider: null
+plugin: 'block_content:d68c8992-a263-4723-90b4-f75986ed980f'
+settings:
+  id: 'block_content:d68c8992-a263-4723-90b4-f75986ed980f'
+  label: 'Aviso Legal Yoza Moon'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
