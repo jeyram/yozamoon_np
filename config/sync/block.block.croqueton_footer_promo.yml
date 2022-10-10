@@ -16,7 +16,7 @@ provider: null
 plugin: 'block_content:b90b4f4d-3dfb-4fcd-a9d9-9001bfa384d5'
 settings:
   id: 'block_content:b90b4f4d-3dfb-4fcd-a9d9-9001bfa384d5'
-  label: 'Croquetón Footer Promo'
+  label: 'Croqueton Footer Promo'
   label_display: '0'
   provider: block_content
   status: true
