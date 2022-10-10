@@ -35,20 +35,20 @@
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-project-message": true,
             "cweagans/composer-patches": true
         },
         "sort-packages": true
     },
-    "extral": {
-        "patches": {
-            "drupal/subrequests": {
-                "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
-            },
-            "drupal/decoupled_router": {
-                "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2021-05-05/3111456-34.patch"
-            }
+    "extra": {
+       "patches": {
+          "drupal/subrequests": {
+              "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
+          },
+          "drupal/decoupled_router": {
+              "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2021-05-05/3111456-34.patch"
+          }
         },
         "drupal-scaffold": {
             "locations": {
