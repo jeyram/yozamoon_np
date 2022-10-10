@@ -2,8 +2,8 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: es
 uuid: df92c8e2-98a2-4a64-aa4e-4836ea02ae8e
-name: 'Drush Site-Install'
-mail: admin@example.com
+name: 'Yoza Moon'
+mail: jeyramx@gmail.com
 slogan: ''
 page:
   403: ''

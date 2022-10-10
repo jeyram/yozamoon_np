@@ -1,5 +1,5 @@
-uuid: 772250fa-c562-49f9-b074-93e785cfd96e
-langcode: es
+uuid: d81af909-b5d7-4189-9935-8c945091ac94
+langcode: en
 status: true
 dependencies:
   content:
@@ -8,7 +8,7 @@ dependencies:
     - block_content
   theme:
     - yza
-id: croquetonfooterpromo
+id: croqueton_footer_promo
 theme: yza
 region: footer
 weight: -9
