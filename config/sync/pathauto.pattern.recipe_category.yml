@@ -1,0 +1,22 @@
+uuid: 6d77534a-6618-48b9-bdce-d66bc52e7032
+langcode: es
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: recipe_category
+label: 'Recipe category'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'recipe-category/[term:source:name]'
+selection_criteria:
+  9fa99540-8f6f-45c5-81a8-8124351930a7:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 9fa99540-8f6f-45c5-81a8-8124351930a7
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      recipe_category: recipe_category
+selection_logic: and
+weight: -5
+relationships: {  }
