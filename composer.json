@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/jsonapi_hypermedia": "^1.9",
         "drupal/jsonapi_menu_items": "^1.2",
         "drupal/jsonapi_resources": "^1.0@beta",
         "drupal/jsonapi_views": "^1.0",
