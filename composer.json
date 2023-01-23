@@ -47,9 +47,9 @@
           "drupal/subrequests": {
               "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
           },
-          "drupal/decoupled_router": {
-              "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2021-05-05/3111456-34.patch"
-          },
+        "drupal/decoupled_router": {
+            "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2022-12-01/decouple_router-3111456-resolve-language-issue-58--get-translation.patch"
+        },
           "drupal/token": {
                 "Add [term:source] for source translation": "https://www.drupal.org/files/issues/2021-12-08/2816693-29.patch"
           }
