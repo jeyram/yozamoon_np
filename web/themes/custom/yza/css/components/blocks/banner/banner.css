@@ -54,7 +54,8 @@
     background-color: #464646;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: cover;
+    background-size: 100%;
+    max-height: 550px;
     /* Image ratio 7:3 */
   }
 
@@ -95,6 +96,8 @@
 @media screen and (min-width: 60rem) { /* 960px */
   .block-type-banner-block .summary {
     flex: 0 0 41%;
+    align-self: baseline;
+    margin-top: 6rem;
   }
   .block-type-banner-block .block-inner {
     min-height: 43vw;
