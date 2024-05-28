@@ -34,4 +34,4 @@
 
 #Ignore backup's files
 /backups
-
+/.ddev
