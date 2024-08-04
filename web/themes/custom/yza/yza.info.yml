@@ -3,7 +3,7 @@ type: theme
 base theme: false
 description: 'The theme used for the Yoza Moon site.'
 version: VERSION
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10 || ^11
 
 libraries:
   - yza/classy.base

@@ -19,8 +19,9 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
         "drupal/coffee": "^1.4",
-        "drupal/core-composer-scaffold": "^9.4",
-        "drupal/core-recommended": "^9.4",
+        "drupal/core-composer-scaffold": "^10",
+        "drupal/core-project-message": "^10",
+        "drupal/core-recommended": "^10",
         "drupal/jsonapi_hypermedia": "^1.9",
         "drupal/jsonapi_menu_items": "^1.2",
         "drupal/jsonapi_resources": "^1.0",
@@ -43,7 +44,8 @@
             "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-project-message": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "phpstan/extension-installer": true
         },
         "sort-packages": true
     },
@@ -51,9 +53,6 @@
        "patches": {
           "drupal/subrequests": {
               "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
-          },
-          "drupal/decoupled_router": {
-              "Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2022-12-01/decouple_router-3111456-resolve-language-issue-58--get-translation.patch"
           }
         },
         "drupal-scaffold": {
@@ -90,5 +89,8 @@
                 "type:drupal-custom-theme"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "^10"
     }
 }
